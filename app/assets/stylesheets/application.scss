@@ -1,0 +1,11 @@
+/* @import "components/index"; */
+
+@import "bootstrap";
+
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan, .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+  min-width: 100%;
+}
+
+.mapboxgl-ctrl{
+    display: none !important;
+}
